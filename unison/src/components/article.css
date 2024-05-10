@@ -1,0 +1,62 @@
+.cardtitle{
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.cardsvg{
+    margin-top: 15px;
+}
+
+.fivecards{
+    display: inline-flex;
+    margin-top: -35px;
+}
+
+.card-group>.card:not(:first-child), .card-group>.card:not(:last-child){
+    border-radius: 15px;
+    border: 2px solid transparent;
+}
+
+.oneoffivecards{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 40px #006a9f3d;
+    z-index: 2;
+    border: none;
+    height: 180px;
+    width: 260px;
+    margin: 5px 15px 5px 15px;
+    border-radius: 12px;
+}
+
+.oneoffivecards:hover{
+    background-color: #006a9f;
+    transition: all 0.3s ease-in-out;
+    .cardtitle{
+        color: #FFFFFF;
+    }
+    #Union_3{
+        fill: #FFFFFF;
+        transition: all 0.3s ease-in-out;
+    }
+    #Path_30{
+        fill: #FFFFFF;
+        transition: all 0.3s ease-in-out;
+    }
+    #Union_4{
+        fill: #FFFFFF;
+        transition: all 0.3s ease-in-out;
+    }
+    #Path_220{
+        fill: #FFFFFF;
+        transition: all 0.3s ease-in-out;
+    }
+    #Path_29{
+        fill: #FFFFFF;
+        transition: all 0.3s ease-in-out;
+    }
+}
+

@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+article{
+  background: url('./assets/images/Image\ 4.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.sectiontitle{
+  font-size: 36px;
+  font-weight: 400;
+  color: #707070;
+}
+
+.more{
+  color: #707070;
+  font-size: 18px;
+  font-weight: 500;
+  margin-block-end: -8px;
+}
+
+.more:hover{
+  color: #006A9F;
+  transition: all 0.3s ease-in-out;
+  #Capa_1{
+    fill: #006A9F;
+    transition: all 0.3s ease-in-out;
+  }
+}

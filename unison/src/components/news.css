@@ -1,0 +1,33 @@
+.threecards{
+    display: inline-flex;
+}
+
+.oneofthreecards{
+    height: 479px;
+    width: 444px;
+    border: 2px solid transparent;
+    margin: 0px 12px 0px 12px;
+    border-radius: 15px;
+}
+
+.oneofthreecards:hover{
+    border: 2px solid #006A9F !important;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.threecardtitle{
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: start;
+    padding: 20px 5px;
+}
+
+.newsdate{
+    color: #D0D0D0;
+    font: 12px;
+    font-weight: 500;
+    text-align: start;
+    padding-left: 5px;
+}

@@ -1,0 +1,61 @@
+a{
+    text-decoration: none;
+}
+
+.footercards{
+    display: inline-flex;
+}
+
+.oneoffootercards{
+    width: 350px;
+}
+
+.logoinfooter{
+    margin-top: 21px;
+    margin-left: -120px;
+    margin-bottom: 21px;
+    width: 202px;
+    height: 53px;
+}
+
+.doinfooter{
+    margin-top: 25px;
+    margin-left: -30px;
+    width: 300px;
+    height: 53px;
+}
+
+.initials{
+    font-size: 20px;
+    font-weight: 700;
+    color: #707070b8;
+    margin-top: 30px;
+    margin-left: -215px;
+}
+
+.footerlink{
+    color: #707070;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: start;
+    margin-bottom: -21px;
+    margin-top: 21px;
+}
+
+.sociallinks{
+    margin-top: -1px;
+}
+
+.boldlink{
+    font-weight: 700 !important;
+}
+
+.footerlink:hover{
+    color: #006a9f;
+    transition: all 0.2s ease-in-out;
+}
+
+.dzlivsvipoveinstagramissvg{
+    width: 50px;
+    height: 50px;
+}
