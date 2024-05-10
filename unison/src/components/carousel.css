@@ -1,0 +1,34 @@
+.carouselimage{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    height: 46px;
+    width: 46px;
+    background-color: rgba(0, 0, 0, 0.566);
+    border-radius: 50%;
+    background-size: 35px;
+    
+}
+
+.carousel-indicators{
+    justify-content: flex-end;
+    margin-bottom: 3rem;
+}
+
+.carousel-caption{
+    bottom: 9rem;
+}
+
+.carouseltitle{
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.carouselcaption{
+    font-size: 22px;
+    color: #FFFFFF
+}

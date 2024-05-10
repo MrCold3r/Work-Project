@@ -1,0 +1,158 @@
+.bg-body-secondnav{
+    height: 129px;
+    background-color: #006a9f;
+}
+
+.menucontainer{
+    max-width: 1720px;
+}
+
+.menucontainer .logo{
+    margin-left: 110px;
+}
+
+.logo{
+    width: 260px;
+    height: 56px;
+    background-image: url('../assets/images/logo.png');
+}
+
+.menubuttons{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: start;
+}
+
+.menubuttons:hover{
+    color: #FFFFFF;
+}
+
+
+.dropdownborder{
+    height: 129px;
+    display: flex;
+    align-items: center;
+    margin-inline-start: 69px;
+}
+
+.dropdownborder:hover{
+    border-top: 5px solid #EE303C;
+    border-bottom: 5px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.menubuttonhover{
+    height: 129px;
+    display: flex;
+    align-items: center;
+    margin-inline-start: 63px;
+
+}
+
+.menubuttonhover:hover{
+    border-top: 5px solid #EE303C;
+    border-bottom: 5px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #FFFFFF;
+}
+
+.fizikuridropdown{
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: start;
+}
+
+.fizikuridropdown::after{
+    content: none;
+}
+
+.fizikuridropdown:hover{
+    background-color: transparent;
+    border: none;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    background-color: transparent;
+    border: none;
+}
+
+.dropdownitemedit{
+    padding: 5px 50px 5px 45px;
+    color: #747474;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.dropdownitemedit:hover{
+    background-color: #ee303c;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+    #Path_29{
+        fill: #ffffff;
+        transition: all 0.2s ease-in-out;
+    };
+    #Path_30{
+        fill: #ffffff;
+        transition: all 0.2s ease-in-out;
+    };
+    #Path_42{
+        fill: #ffffff;
+        transition: all 0.2s ease-in-out;
+    };
+    #Union_4{
+        fill: #ffffff;
+        transition: all 0.2s ease-in-out;
+    };
+}
+
+.dropdownmenuedit{
+    padding: 40px 0px 40px 0px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+}
+
+.dropdownmenuedit.dropdown-menu.show{
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+/* .dropdown:hover .dropdown-menu {
+    display: block;
+    transition: all 0.2s ease-in-out;
+} */
+
+.login{
+    text-align: start;
+    color: #ffffff;    
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.loginwithsvg{
+    padding:  35px 25px 25px 25px;
+    justify-content: space-between;
+}
+
+.loginsvg{
+    padding-right: 13px;
+}
+
+.loginsvg:hover{
+    #Ellipse_1{
+        fill: #ee303c;
+        transition: all 0.1s ease-in-out;
+    }
+    #Path_36{
+        fill: #ffffff;
+        transition: all 0.1s ease-in-out;
+    }
+}

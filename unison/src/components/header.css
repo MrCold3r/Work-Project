@@ -1,0 +1,135 @@
+/* header */
+.mainnavbar{
+    background-color: rgb(41, 41, 41);
+    top: 0px;
+    left: 0px;
+    height: 49px;
+}
+
+.navbarcontainer{
+    max-width: 1720px;
+}
+
+.navlink.home{
+    margin-left: 100px;
+}
+
+.navlink{
+    color: #D0D0D0;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.navlink:hover{
+    color:#006A9F;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #D0D0D0;
+}
+
+#dropdown-basic{
+    background-color: #EE303C;
+    border-radius: 10px;
+    border-color: #EE303C;
+    width: 80px;
+    margin-left: 36px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.sosdropdown.dropdown-menu[data-bs-popper]{
+    background-color: #EE303C;
+    border-color: #EE303C;
+    border-radius: 10px;
+    padding: 15px 0px 15px 0px;
+    top: 70%;
+    left: -70px;
+}
+
+.navlinksos:hover{
+    background-color: #eb5e67;
+    color: white;
+    transition: all 0.3s ease-in-out
+}
+
+.languagedropdown.dropdown-menu[data-bs-popper]{
+    background-color: rgb(41, 41, 41);
+    border-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    top: 80%;
+}
+
+.englishui{
+    color: #D0D0D0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.englishui:hover{
+    color:#D0D0D0;
+    background-color: #006A9F;
+    transition: all 0.3s ease-in-out
+}
+
+.navlinksos{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#basic-nav-dropdown-sos{
+    color:#D0D0D0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#dropdown-basic::after{
+    content: none;
+}
+
+.navdropdownen{
+    margin-top: 2px;
+}
+
+#dropdown-basic-language{
+    background-color: transparent;
+    border: none;
+    color: #D0D0D0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.phonenumber{
+    color: #D0D0D0;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-bottom: -4px;
+    border-bottom: solid 4px #EE303C;
+}
+
+.phonenumber:hover{
+    color:#D0D0D0;
+}
+
+.rightcorner{
+    margin-left: 400px;
+    display: flex;   
+}
+
+
+
+/* dropdown-ის ჩამოშლა დაკლიკვის გარეშე */
+
+/* .dropdown:hover .dropdown-menu{
+    display: block;
+
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+ */
